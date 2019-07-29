@@ -25,6 +25,7 @@ while guess < 50:
         temp = temp * 2
     else:
         temp = temp / 2
+    temp = math.ceil(temp)
         
     if v == 1:
         out = out - temp
